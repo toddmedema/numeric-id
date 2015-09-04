@@ -18,5 +18,10 @@
   "homepage": "https://github.com/toddmedema/numeric-id#readme",
   "dependencies": {
     "bignum": "^0.11.0"
+  },
+  "devDependencies": {
+    "code": "^1.5.0",
+    "lab": "^5.16.0",
+    "sinon": "^1.16.1"
   }
 }
