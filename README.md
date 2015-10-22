@@ -1,6 +1,12 @@
 # numeric-id
 Node module that generates compact, meaningful, ordered numeric ID's (stored as strings to prevent JS precision errors). Capable of 4,096 unique ID's per ms per process.
 
+```
+var NumericId = require('numeric-id');
+
+var bigUniqueId = NumericId.generate();
+```
+
 Concept courtesy of http://engineering.intenthq.com/2015/03/icicle-distributed-id-generation-with-redis-lua/ 
 
 Implementation notes:
